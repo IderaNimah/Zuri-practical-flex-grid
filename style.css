@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+main {
+  width: 57%;
+  margin: auto;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  height: 100vh;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.top {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  height: 63%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.middle {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  height: 63%;
+}
+.down {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  height: 63%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#text {
+  margin-top: 20%;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+#word {
+  margin-top: 20%;
+  color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.button-one {
+  margin-top: 36%;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border-radius: 25px;
+  border: 2px;
+  padding: 10px;
+  width: 130px;
+}
+
+.button-two {
+  margin-top: 25%;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  border-radius: 25px;
+  border: 2px;
+  padding: 10px;
+  width: 130px;
+}
+.button-three {
+  margin-top: 25%;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  border-radius: 25px;
+  border: 2px;
+  padding: 10px;
+  width: 130px;
+}
